@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>work</title>
+    <style>
+        body {
+            background: #fff url(images/bg3.JPG)no-repeat;
+            background-size: 100% 250%;
+        }
+        
+        ul li {
+            display: inline;
+        }
+        
+        ul a {
+            background-color: blanchedalmond;
+            float: left;
+            text-decoration: none;
+            margin: 100px 20px 30px 30px;
+            padding: 10px 10px 15px;
+            text-align: center;
+            font-size: 14px;
+            color: black;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+            transform: rotate(-5deg);
+        }
+        
+        ul img {
+            height: 50px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        ul a:after {
+            content: attr(title);
+        }
+        
+        ul li:nth-child(1) a {
+            position: relative;
+            left: 40px;
+            top: 150px;
+            transform: rotate(20deg);
+        }
+        
+        ul li:nth-child(2) a {
+            position: relative;
+            top: 100px;
+            left: 130px;
+        }
+        
+        ul li:nth-child(3) a {
+            position: relative;
+            left: 220px;
+            top: 3px;
+            transform: rotate(-10deg);
+        }
+        
+        ul li:nth-child(4) a {
+            position: relative;
+            left: 240px;
+            top: 40px;
+            transform: rotate(-10deg);
+        }
+        
+        ul li:nth-child(5) a {
+            position: relative;
+            left: 270px;
+            top: 3px;
+            transform: rotate(25deg);
+        }
+        
+        ul li:nth-child(6) a {
+            position: relative;
+            left: 300px;
+            top: 20px;
+            transform: rotate(-15deg);
+        }
+        
+        ul li a:hover {
+            transform: scale(1.25, 1.25);
+            box-shadow: 0 3px 6px rgba(196, 193, 67, 0.5);
+            position: relative;
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="total">
+        <li>
+            <a href="11" title="相识"><img class="pic1" src="images/11.jpg" alt="相识"></a>
+        </li>
+        <li>
+            <a href="22" title="凝视"><img class="pic2" src="images/22.jpg" alt="凝视"></a>
+        </li>
+        <li>
+            <a href="33" title="甜睡"><img class="pic3" src="images/33.jpg" alt="甜睡"></a>
+        </li>
+        <li>
+            <a href="44" title="逗乐"><img class="pic4" src="images/44.jpg" alt="逗乐"></a>
+        </li>
+        <li>
+            <a href="55" title="奔跑"><img class="pic5" src="images/55.jpg" alt="奔跑"></a>
+        </li>
+        <li>
+            <a href="66" title="漠视"><img class="pic6" src="images/66.jpg" alt="漠视"></a>
+        </li>
+    </ul>
+</body>
+
+</html>
